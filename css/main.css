@@ -1,0 +1,183 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-color:rgb(151, 109, 229)
+}
+
+.main{
+    margin-left: 20px;
+    width: auto;
+    background-color:rgba(82, 82, 82, 0.5);
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    color: rgb(214, 184, 14);
+}
+
+
+nav{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8));
+    padding: 5px;
+    margin: 20px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px 3px;
+}
+
+nav ul{
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    margin: 25px;
+    width: auto;
+}
+
+main a{
+    margin: 20px;
+}
+
+button{
+    margin: 10px;
+    display: block;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+footer div{
+    margin: 5px;
+    padding: 5px;
+}
+
+a:hover:not(button a){
+    color: blue;
+    text-decoration: underline;
+}
+
+#title-page{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8)),url("../images/mountains.png");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 20px;
+    border-radius: 20px;
+    color:rgb(214, 184, 14);
+}
+
+#title-page h1, h5{
+    transform: translate(20%, 80%);
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+#title-page h5{
+    width: 50%;
+    font-size: 20px;
+}
+
+#title-page h1{
+    font-size: 50px;
+}
+
+#portrait{
+    float: right;
+}
+
+#title-page .projects1{
+    transform: translate(200%, 130%);
+}
+
+#title-page .projects2{
+    transform:translate(150%, 130%)
+}
+
+button a{
+    color: rgb(214, 184, 14);
+    padding: 10px;
+    padding-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button{
+    display: inline;
+    background-color: rgb(113, 113, 113);
+    box-shadow:inset -2px -2px 12px 1px;
+    border: 0;
+    padding-bottom: 5px;
+}
+
+button:hover{
+    background-color: rgb(157, 11, 214);
+}
+
+#about-me, #hobbies, #programming, #contact-me{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(82, 82, 82, 1);
+    color:rgb(214, 184, 14);
+}
+
+#portrait{
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    transform: translate(-160%, -80%)
+}
+
+#portrait-text{
+    float: right;
+    transform: translate(15%, 35%);
+    font-size: 20px;
+    color: rgb(214, 184, 14);
+}
+
+#send-p{
+    margin: 0;    
+    color: rgb(214, 184, 14);
+    font-family:'Times New Roman', Times, serif
+}
+#send-button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#copyright{
+    color: white;
+}
+
+#about-me{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8)),url("../images/beach.jpg");
+    background-repeat: no-repeat;
+}
+
+#hobbies{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8)),url("../images/sports.jpg");
+}
+
+#programming{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8)),url("../images/code.jpg");
+}
+
+#contact-me{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(114, 45, 170, 0.5), rgba(0, 0, 0, 0.8)),url("../images/contact_me.jpg");
+}
